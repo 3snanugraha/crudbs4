@@ -380,11 +380,11 @@
                         $i++;
                         ?>
                         <tr>
-                            <td><?php "$i"; ?></td>
-                            <td><?php "$data[id_admin]"; ?></td>
-                            <td><?php "$data[username]"; ?></td>
-                            <td><?php "$data[password]"; ?></td>
-                            <td><?php "$data[nama_admin]"; ?></td>
+                            <td><?php echo"$i"; ?></td>
+                            <td><?php echo"$data[id_admin]"; ?></td>
+                            <td><?php echo"$data[username]"; ?></td>
+                            <td><?php echo"$data[password]"; ?></td>
+                            <td><?php echo"$data[nama_admin]"; ?></td>
                             <td>
                               <a class="btn btn-primary" href="edit-admin.php?id_admin=<?php echo"$data[id_admin]" ?>">Edit </a>
                               <a class="btn btn-danger" href="proses-hapus-admin.php?id_admin=<?php echo"$data[id_admin]" ?>">Hapus </a>
